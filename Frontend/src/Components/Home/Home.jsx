@@ -44,7 +44,7 @@ export const Home = () => {
       </div>
       {Products && (
         <div>
-          <h2>Products</h2>
+          <h2>All Products</h2>
           {Products?.map((product, index) => (
             <ul key={index}>
               <span>{product.name} : {product.description}</span>
